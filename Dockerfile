@@ -12,4 +12,4 @@ WORKDIR /public
 COPY ./test.html .
 
 EXPOSE 8080
-CMD http-server -c-1
+CMD ["http-server"]
