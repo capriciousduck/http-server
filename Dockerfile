@@ -9,7 +9,6 @@ RUN npm install http-server -g
 
 RUN mkdir /public
 WORKDIR /public
-COPY ./test.html .
 
 EXPOSE 8080
 CMD ["http-server"]
