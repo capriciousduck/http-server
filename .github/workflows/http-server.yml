@@ -12,7 +12,7 @@ on:
 
 jobs:
   image_build:
-    runs-on: self-hosted
+    runs-on: maverick-runner
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
