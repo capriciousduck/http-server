@@ -12,7 +12,7 @@ on:
 
 jobs:
   image_build:
-    runs-on: maverick-runner
+    runs-on: lightning
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
