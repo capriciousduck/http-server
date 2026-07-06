@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:26-alpine
 LABEL ARCH=amd64
 LABEL maintainer="Krishna Chaitanya"
 
